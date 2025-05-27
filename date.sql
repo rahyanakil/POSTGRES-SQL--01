@@ -22,5 +22,5 @@ SELECT age(CURRENT_DATE ,'1996-07-29');
 --to calculate the age from the students table
 SELECT *,age(CURRENT_DATE,dob) FROM students;
 --extract date month year from a date 
-select extract ((month,day) from '2024-01-25'::date);
+select extract (month from '2024-01-25'::date);
 

@@ -33,6 +33,7 @@ DROP table post;
 DROP table "user";
 
 
-JOIN "user" on post.user_id= "user".id;
 
-SELECT title,username FROM post;
+
+SELECT title,username FROM post
+JOIN "user" on post.user_id= "user".id;

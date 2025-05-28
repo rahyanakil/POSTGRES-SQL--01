@@ -39,3 +39,6 @@ DELETE from employees where employee_id=p_emp_id;
 $$
 
 SELECT delete_emp_with_parameter(3);
+
+
+select * from employees
